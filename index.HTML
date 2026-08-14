@@ -3,71 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Sustentável</title>
+    <title>Sustentabilidade no Campo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>🌱 Agro Sustentável</h1>
-    <p>Práticas sustentáveis e tecnologias revolucionárias no cenário agrícola.</p>
-</header>
+    <!-- Cabeçalho e Menu -->
+    <header>
+        <div class="container">
+            <h1>EcoCampo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#dicas">Dicas Práticas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<nav>
-    <a href="#sustentabilidade">Sustentabilidade</a>
-    <a href="#tecnologia">Tecnologia</a>
-    <a href="#beneficios">Benefícios</a>
-</nav>
+    <!-- Banner Principal -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>O Futuro da Agricultura é Sustentável</h2>
+            <p>Produzir alimentos em harmonia com a natureza, preservando o solo e a água para as próximas gerações.</p>
+            <button id="btn-conhecer">Saber Mais</button>
+        </div>
+    </section>
 
-<section id="sustentabilidade">
-    <h2>Práticas Sustentáveis</h2>
-    <p>
-        A agricultura sustentável busca produzir alimentos preservando o meio ambiente.
-        Entre as principais práticas estão:
-    </p>
+    <!-- Pilares da Sustentabilidade -->
+    <section id="pilares" class="container section-padding">
+        <h2 class="section-title">Práticas Sustentáveis</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Manejo do Solo</h3>
+                <p>Rotação de culturas e uso de adubos orgânicos para manter a terra fértil sem esgotar seus nutrientes.</p>
+            </div>
+            <div class="card">
+                <h3>Uso da Água</h3>
+                <p>Sistemas de irrigação gota a gota e captação da água da chuva evitam o desperdício do nosso recurso mais precioso.</p>
+            </div>
+            <div class="card">
+                <h3>Biodiversidade</h3>
+                <p>Preservação de matas ciliares e uso de controle biológico de pragas, reduzindo a necessidade de defensivos químicos.</p>
+            </div>
+        </div>
+    </section>
 
-    <ul>
-        <li>🌱 Rotação de culturas</li>
-        <li>💧 Uso consciente da água</li>
-        <li>♻ Reciclagem de resíduos</li>
-        <li>☀ Utilização de energia solar</li>
-    </ul>
-</section>
+    <!-- Seção de Dicas Interativas -->
+    <section id="dicas" class="bg-light section-padding">
+        <div class="container text-center">
+            <h2>Dica do Dia para o Produtor</h2>
+            <p id="texto-dica">Clique no botão abaixo para descobrir uma ação sustentável que você pode aplicar hoje.</p>
+            <button id="btn-dica" class="btn-secondary">Ver Nova Dica</button>
+        </div>
+    </section>
 
-<section id="tecnologia">
-    <h2>Tecnologias Revolucionárias</h2>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 EcoCampo - Cultivando um amanhã melhor.</p>
+    </footer>
 
-    <div class="card">
-        <h3>🚁 Drones</h3>
-        <p>Monitoram as plantações e ajudam na aplicação de defensivos.</p>
-    </div>
-
-    <div class="card">
-        <h3>🤖 Inteligência Artificial</h3>
-        <p>Auxilia na previsão de safras e na identificação de doenças.</p>
-    </div>
-
-    <div class="card">
-        <h3>📡 Sensores</h3>
-        <p>Monitoram o solo e a umidade em tempo real.</p>
-    </div>
-</section>
-
-<section id="beneficios">
-    <h2>Benefícios</h2>
-
-    <button onclick="mostrarMensagem()">
-        Clique para conhecer um benefício
-    </button>
-
-    <p id="mensagem"></p>
-</section>
-
-<footer>
-    <p>© 2026 - Agro Sustentável</p>
-</footer>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
